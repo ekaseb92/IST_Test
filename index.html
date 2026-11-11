@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IST Networks | Webex Connect Live Chat Test</title>
+<link rel="icon" href="https://istnetworks.com/favicon.svg">
+<style>
+html{position:relative;min-height:100%;background:#F4F7FB;font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+body{margin:0;min-height:100vh;background:
+  radial-gradient(circle at 88% 30%,rgba(255,255,255,.10) 0 230px,transparent 231px) top/100% 400px no-repeat,
+  linear-gradient(135deg,#004F82 0%,#0075BE 55%,#2A9BE0 100%) top/100% 400px no-repeat,#F4F7FB}
+
+/* Header bar with IST Networks logo */
+body::before{content:"TEST ENVIRONMENT";display:block;height:76px;line-height:76px;padding:0 32px;text-align:right;
+  font-size:12px;font-weight:700;letter-spacing:.12em;color:#0075BE;
+  background:#fff url("https://istnetworks.com/ist-logo.png") no-repeat 24px center/auto 64px;
+  border-bottom:3px solid #F5B400;box-shadow:0 2px 12px rgba(0,0,0,.06)}
+
+/* Hero title */
+body::after{content:"Webex Connect Live Chat";display:block;max-width:1016px;margin:0 auto;padding:64px 32px 0;
+  color:#fff;font-size:40px;font-weight:700;line-height:1.2}
+
+/* Hero subtitle */
+html::after{content:"Sandbox page for validating the Live Chat widget, Webex Connect flow and agent routing to Webex Contact Center.";
+  position:absolute;top:200px;left:50%;transform:translateX(-50%);width:min(1016px,calc(100% - 64px));
+  color:rgba(255,255,255,.9);font-size:17px;line-height:1.5}
+
+/* Info card */
+html::before{content:"💬  HOW TO TEST\A\A 1.  Click the chat launcher in the bottom-right corner.\A 2.  Fill in the pre-chat form and start the conversation.\A 3.  Confirm the chat reaches the Webex Connect flow.\A 4.  Accept the offer in Agent Desktop and reply.\A 5.  End the chat from both sides and check the transcript.";
+  white-space:pre-line;position:absolute;top:320px;left:50%;transform:translateX(-50%);
+  width:min(1016px,calc(100% - 64px));box-sizing:border-box;padding:28px 32px;
+  background:#fff;border:1px solid #E3E9F0;border-left:5px solid #0075BE;border-radius:14px;
+  box-shadow:0 10px 30px rgba(16,42,67,.10);color:#1C2733;font-size:15px;line-height:1.9;z-index:1}
+
+@media (max-width:600px){
+  body::after{font-size:28px;padding-top:40px}
+  html::after{top:150px;font-size:15px}
+  html::before{top:290px}
+}
+</style>
+</head>
+<body>
+<div id="divicw" data-bind="5D89136B-AAF1-449F-975C-987820DA2F56" data-org="" data-guid="c200dbc6-50bb-4146-8624-a687e4312df0"></div><script>{3}var i={t:function(){try{var e=document.getElementById("divicw"),t=document.createElement("script");t.src="https://chat-widget.prodeu1.ciscoccservice.com/js/imichatinit.js?t="+new Date().toISOString(),e.insertAdjacentElement("afterend",t),t.addEventListener("load",function(){console.log(new Date().toISOString(),"Livechat script loaded successfully!")}),t.addEventListener("error",function(){console.log(new Date().toISOString(),"Error loading Livechat script");i.o(e)})}catch(e){console.error(e)}},o:function(e){e.insertAdjacentHTML("afterend",'<iframe id="tls_al_frm" frameborder="0" style="overflow:hidden;height:208px;width:394px;position:fixed;display:block;right:48px;bottom:12px;z-index:99999;display:none;"></iframe>');var t=document.getElementById("tls_al_frm"),n=t.contentWindow,d=n.document;d.open();d.write("<!doctype html><html><head><meta charset='utf-8'><title>Untitled Document</title><style>body{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:#99a0b0;font-size:14px}.popover__content{background-color:#fbfbfe;padding:1.5rem;border-radius:5px;width:300px;box-shadow:0 2px 5px 0 rgba(0,0,0,0.26);position:relative}.popover__message{font-weight:600;color:#56627c;font-size:16px}.pull-left{float:left}.clearfix{clear:both}.hdr-txt{width:218px;margin-top:3px}.para-txt a{text-decoration:none;color:#005cde}.close-btn{position:absolute;right:15px;top:15px}.close-btn a{text-decoration:none;font-weight:400;color:#56627c;font-size:16px}</style></head><body><div class='popover__content'><div class='close-btn'><a href='#' onclick='closeTLSAlert()'>X</a></div><div class='popover__message'><div class='pull-left hdr-txt'>This browser version is not supported on LiveChat.</div></div><div class='clearfix'></div><p class='para-txt'>Please update your browser to the latest version and re-open the website to access the widget.</p></div><script>function closeTLSAlert(){window.parent.postMessage({key:'close_tls_alert',value:'close_tls_alert',action:'close_tls_alert'},'*');}<\/script></body></html>");d.close();t.style.display='block';window.addEventListener('message',function(e){'close_tls_alert'===e.data.action&&i.s()})},s:function(){var e=document.getElementById('tls_al_frm');e&&e.remove()}};i.t();</script>
+</body>
+</html></body>
+</html>
